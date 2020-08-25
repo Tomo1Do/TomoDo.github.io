@@ -870,6 +870,12 @@ header {
   .about-me-right img {
     padding: 20px 0;
   }
+  .project .project-text {
+    padding-top: 0;
+  }
+  .project-overlay {
+    height: 97%;
+  }
 }
 
 @media only screen and (max-width: 769px) {
@@ -948,6 +954,80 @@ header {
   }
   .projects h1 {
     margin-bottom: 50px;
+  }
+  .web-window {
+    width: 95%;
+    margin: auto;
+    margin-top: 5px;
+  }
+  .dots {
+    display: none;
+  }
+  .other-skills {
+    margin: 0 5px;
+    -ms-grid-columns: 1fr;
+        grid-template-columns: 1fr;
+  }
+  .skills-column .progress {
+    height: 20px;
+  }
+  .progress-done h5 {
+    font-size: 10px;
+  }
+  .header-text {
+    margin: 50px;
+  }
+  #contact {
+    display: none;
+  }
+}
+
+@media only screen and (max-height: 568px) {
+  h1 {
+    font-size: 31.25px;
+  }
+  h2 {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 20px;
+  }
+  h4 {
+    font-size: 15px;
+  }
+  h5 {
+    font-size: 15px;
+  }
+  h6 {
+    font-size: 10px;
+  }
+  p {
+    font-size: 12px;
+  }
+  a {
+    font-size: 15px;
+  }
+  .list-item {
+    padding: 5px;
+  }
+  .nav-container {
+    margin: 10px 0;
+    width: 95%;
+    margin: auto;
+  }
+  .header-container {
+    padding: 10px 0;
+  }
+  .projects {
+    width: 95%;
+    margin: auto;
+  }
+  .projects h1 {
+    margin-bottom: 50px;
+  }
+  .projects-grid {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
   }
   .web-window {
     width: 95%;
