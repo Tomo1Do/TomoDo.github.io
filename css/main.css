@@ -366,7 +366,7 @@ header {
 }
 
 .project .project-text {
-  padding: 10px 10px;
+  padding: 0 10px 10px 10px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -399,7 +399,7 @@ header {
 .project-overlay {
   position: absolute;
   width: 100%;
-  height: 99%;
+  height: 97%;
   top: 0;
   left: 0;
   background-color: rgba(0, 0, 0, 0.623);
@@ -870,12 +870,6 @@ header {
   .about-me-right img {
     padding: 20px 0;
   }
-  .project .project-text {
-    padding-top: 0;
-  }
-  .project-overlay {
-    height: 97%;
-  }
 }
 
 @media only screen and (max-width: 769px) {
@@ -982,7 +976,7 @@ header {
   }
 }
 
-@media only screen and (max-height: 568px) {
+@media only screen and (min-height: 360px) {
   h1 {
     font-size: 31.25px;
   }
