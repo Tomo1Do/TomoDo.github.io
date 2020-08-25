@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,KAAK,CAAA;EACD,iBAAiB,CAAA,QAAC;EAClB,UAAU,CAAA,QAAC;EACX,WAAW,CAAA,KAAC;EACZ,aAAa,CAAA,QAAC;EACd,cAAc,CAAA,gBAAC;EACf,UAAU,CAAA,QAAC;EACX,aAAa,CAAA,QAAC;EAGd,WAAW,CAAA,KAAC;CACf",
+    "sources": [
+        "../../scss/dark.scss"
+    ],
+    "names": [],
+    "file": "dark.css"
+}
