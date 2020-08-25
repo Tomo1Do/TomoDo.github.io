@@ -520,6 +520,7 @@ header {
 
 .web-window .resume-download p {
   margin: 0;
+  text-align: start;
 }
 
 .web-window .resume-download a {
@@ -976,7 +977,7 @@ header {
   }
 }
 
-@media only screen and (max-height: 560px) and (max-width: 760px) {
+@media only screen and (max-height: 441px) and (max-width: 760px) {
   h1 {
     font-size: 31.25px;
   }
@@ -1022,6 +1023,7 @@ header {
   .projects-grid {
     -ms-grid-columns: 1fr 1fr;
         grid-template-columns: 1fr 1fr;
+    grid-gap: 15px;
   }
   .web-window {
     width: 95%;
