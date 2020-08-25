@@ -976,7 +976,7 @@ header {
   }
 }
 
-@media only screen and (max-height: 560px) {
+@media only screen and (max-height: 560px) and (max-width: 760px) {
   h1 {
     font-size: 31.25px;
   }
