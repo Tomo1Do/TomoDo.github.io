@@ -293,6 +293,19 @@ header {
   padding: 20px;
 }
 
+.about-me-right a {
+  display: block;
+  padding: 5px;
+}
+
+.about-me-right p {
+  color: #6e6e6e;
+}
+
+.about-me-right a:hover {
+  color: var(--markedColor);
+}
+
 .interests {
   padding: 20px;
   margin-top: 10px;
@@ -855,7 +868,7 @@ header {
     width: 95%;
   }
   .about-me-right img {
-    padding: 0;
+    padding: 20px 0;
   }
 }
 
@@ -877,13 +890,15 @@ header {
   }
   .about-me {
     width: 95%;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
   }
   .about-me-left .about-me-block {
     width: 95%;
     margin: auto;
     margin-top: 40px;
   }
-  .about-me-right {
+  .about-me-right img {
     display: none;
   }
   .contact h2 {
