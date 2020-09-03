@@ -6,6 +6,7 @@
   --projectColor: #ffffff;
   --boxColor: #ffffff;
   --borderColor: #6969692c;
+  --switchColor: #cccccc;
   --logoColor: rgba(34, 34, 34, 0.90);
 }
 
@@ -290,7 +291,7 @@ header {
 
 .about-me-right img {
   width: 100%;
-  padding: 20px;
+  padding: 20px 0px;
 }
 
 .about-me-right a {
